@@ -23,8 +23,6 @@ from PIL import Image
 import pickle
 import plotly.express as px
 
-# Test changes in github
-
 # Disable metal GPU
 tf.config.set_visible_devices([], 'GPU')
 
