@@ -35,11 +35,11 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # GUI Main page - Page header
-title_image = Image.open('Images/Header Image.png')
+title_image = 'https://raw.githubusercontent.com/dannyhartanto/Web_app_beta2/main/Images/Header%20Image.png'
 st.image(title_image)
 
 # GUI Sidebar - Page header
-sub_image = Image.open('Images/Sub_image.png')
+sub_image = 'https://raw.githubusercontent.com/dannyhartanto/Web_app_beta2/main/Images/Sub_image.png'
 st.sidebar.image(sub_image)
 
 # Main title
