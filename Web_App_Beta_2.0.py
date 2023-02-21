@@ -23,9 +23,6 @@ from PIL import Image
 import pickle
 import plotly.express as px
 
-# Disable metal GPU
-tf.config.set_visible_devices([], 'GPU')
-
 # Dismiss plotting warning
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -38,11 +35,11 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # GUI Main page - Page header
-title_image = Image.open('/Users/dannyhartanto/Desktop/PyCharm Files/AutoML/Images/Header Image.png')
+title_image = Image.open('Images/Header Image.png')
 st.image(title_image)
 
 # GUI Sidebar - Page header
-sub_image = Image.open('/Users/dannyhartanto/Desktop/PyCharm Files/AutoML/Images/Sub_image.png')
+sub_image = Image.open('Images/Sub_image.png')
 st.sidebar.image(sub_image)
 
 # Main title
